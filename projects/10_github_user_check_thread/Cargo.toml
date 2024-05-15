@@ -1,0 +1,8 @@
+[package]
+name = "github_user_check_thread"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.4", features = ["json", "blocking"] }
+serde = { version = "1.0.200", features = ["derive"] }

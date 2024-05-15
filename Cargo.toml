@@ -1,0 +1,22 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "projects/01_thread_sleep",
+    "projects/02_hello_world_threads",
+    "projects/03_shared_memory_arc_mutex",
+    "projects/04_shared_memory_rwlock",
+    "projects/05_atomic_types",
+    "projects/06_thread_communication_channels",
+    "projects/07_conditional_variable",
+    "projects/08_scoped_threads_crossbeam",
+    "projects/09_apple_quality_analysis",
+    "projects/10_github_user_check_thread",
+    "projects/11_async_sleep",
+    "projects/12_async_code",
+    "projects/13_async_sequence",
+    "projects/14_async_gather",
+    "projects/15_async_select",
+    "projects/16_github_user_check_async",
+]
